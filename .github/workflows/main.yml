@@ -12,6 +12,6 @@ jobs:
           organization: DELTA-SJEC
           label: Invitation
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          comment: '<b><h1>Welcome to the community🎉</h1></b><br>Don''t forget to accept the invitation sent through mail.<br> If you would like to continue contributing to open source and would like to do it with an awesome inclusive community, you should join our <a href="https://discord.gg/Gc4gnPz2">Discord Server</a> - we help and encourage each other to contribute to open source little and often!🤓'
+          comment: '<b><h1>Welcome to the community🎉</h1></b><br>Don''t forget to accept the invitation sent through mail.<br> If you would like to continue contributing to open source and would like to do it with an awesome inclusive community, you should join our <a href="https://discord.com/invite/bzbQPNzu87">Discord Server</a> - we help and encourage each other to contribute to open source little and often!🤓'
         env:
           INVITE_TOKEN: ${{ secrets.INVITE_TOKEN }}
